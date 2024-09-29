@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Eleonora Pikalo, SD-02, Technical Communication course F24'
+theme = 'ananke'
+
+[mediaTypes]
+  [mediaTypes."text/markdown"]
+    suffixes = ["md", "mdx"]
+
+[outputFormats]
+  [outputFormats.MDX]
+    mediaType = "text/markdown"
+    isPlainText = true
+    isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "MDX"]
+  page = ["HTML", "MDX"]
+  section = ["HTML", "RSS", "MDX"]
+  taxonomy = ["HTML", "RSS", "MDX"]
+  term = ["HTML", "RSS", "MDX"]

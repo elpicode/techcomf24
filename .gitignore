@@ -1,0 +1,28 @@
+node_modules
+# Hugo default output directory
+/public/
+
+# Hugo cache and resources
+/resources/
+/.hugo_build.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Build files
+/dist/
+
+# Environment variables
+.env
+
+# Hugo generated files
+/content/posts/.obsidian/
